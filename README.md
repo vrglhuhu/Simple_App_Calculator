@@ -8,10 +8,10 @@ _I am Chean Bernard V. Vergel.  I am 18 years old and currently I am a first ye
 
 _Let this program seperate your even and odd numbers!_
 >
-# 🟥 🟥 🟥 _**Introduction**_ 🟥 🟥 🟥
+# 🟥 🟥 _**Introduction**_ 🟥 🟥 
 > The program allows the user to select from four basic mathematical operations, namely addition, subtraction, multiplication, and division. The user interface is designed to prompt the user to select an operation and input two numbers. The program then calculates the result and displays it. The pyfiglet module is used to create a header with the title "Simple App Calculator". The program runs in an infinite loop until the user decides to quit. If the user enters an invalid input, the program prompts the user to enter a valid number.
 
-# 🟥 🟥 🟥 _**Features**_ 🟥 🟥 🟥
+#  🟥 🟥 _**Features**_ 🟥 🟥 
 - > The code **imports the pyfiglet module** for printing fancy text.
 - > The code prints a **welcome message in fancy text** using the pyfiglet module.
 - > The code prints a **menu of available operations** (addition, subtraction, multiplication, and division) using emoji and colored text.
@@ -22,11 +22,11 @@ _Let this program seperate your even and odd numbers!_
 - > The code **performs the selected operation and prints the result** using emoji and colored text.
 - > The code **loops back to the beginning**, allowing the user to perform more calculations or exit the program.
 
-# 🟥 🟥 🟥 _**How the user will run this program?**_ 🟥 🟥 🟥
+# 🟥 🟥 _**How the user will run this program?**_ 🟥 🟥 
 
 ![Blue Digital Citizenship Technology Infographic (1000 × 2400px)](https://user-images.githubusercontent.com/129587048/236656634-9a564a49-1329-45e5-897d-d23340156c58.png)
 
-# 🟥 🟥 🟥 _**How to run this program using IDE?**_ 🟥 🟥 🟥
+#  🟥 🟥 _**How to run this program using IDE?**_ 🟥 🟥 
 - > **1st step** - You have to install any of the popular IDEs such as PyCharm, Atom, or Visual Studio Code to run this program.
 - > **2nd step** - After you have installed and opened the IDE, open the file containing the program.
 - > **3rd step** - Run the file by pressing the "Run" button or by using the command prompt.
