@@ -2,6 +2,12 @@
 # Simple App Calculator
 
 # Print selecting operation
+print("To select operation.")
+print("Press A: Addition")
+print("Press B: Subtraction")
+print("Press C: Multiplication")
+print("Press D: Division\n")
+
     # Ask for the operation that the user wants 
     # Check if the choice is one among the four operations
         # Calculate the given operation.
@@ -27,4 +33,4 @@
             # If the user input other character or zero as the second number
         # Ask user if they want to have another calculation
         # Break the while loop if user answered no
-    # If not in the four operations   
+    # If not in the four operations 
