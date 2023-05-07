@@ -13,6 +13,8 @@ while True:
     choice = input("Enter your choice of operation: ")
 
     # Check if the choice is one among the four operations
+    if choice.lower() in ('a', 'b', 'c', 'd'):
+        
         # Calculate the given operation.
         # If the user wants addition
                 # Ask the user to enter first number  
