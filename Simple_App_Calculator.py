@@ -86,9 +86,14 @@ while True:
             except (ValueError, ZeroDivisionError):
                 print("INVALID INPUT. Please enter a non-zero number.")
                 continue
-            
+
         # Ask user if they want to have another calculation
+        next_calculation = input("Do you want to perform another calculation? YES or NO: ")
         # Break the while loop if user answered no
+        if next_calculation.upper() == "NO":
+            print("Closing Program... Thank you!")
+            break
+        
     # If not in the four operations
     else:
         print("Invalid Input")  
