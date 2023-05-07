@@ -71,11 +71,22 @@ while True:
                 print("INVALID INPUT. Please enter a number.")
                 continue
 
-        # If the user wants division       
+        # If the user wants division  
+        elif choice.lower() == 'd': 
+            print("DIVISION OPERATION")
+            try:     
                 # Ask the user to enter first number
+                num1 = float(input("Enter first number that you want to divide: "))
                 # Ask the user to enter second number
+                num2 = float(input("Enter second number that you want to divide: "))
+                divide = num1 / num2
                 # Printing result
+                print(num1, "/", num2, "=", divide)
             # If the user input other character or zero as the second number
+            except (ValueError, ZeroDivisionError):
+                print("INVALID INPUT. Please enter a non-zero number.")
+                continue
+            
         # Ask user if they want to have another calculation
         # Break the while loop if user answered no
     # If not in the four operations
