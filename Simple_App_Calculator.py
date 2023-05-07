@@ -1,7 +1,14 @@
 # Vergel, Chean Bernard Villanueva
 # Simple App Calculator
 
+# Import pyfiglet 
+import pyfiglet
+
 # Print selecting operation
+welcome = pyfiglet.figlet_format("Simple App Calculator".center(55), font="digital")
+print(welcome)
+print("=" * 110)
+print("=" * 110)
 print("To select operation.")
 print("Press A: Addition")
 print("Press B: Subtraction")
