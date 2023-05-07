@@ -8,7 +8,10 @@ print("Press B: Subtraction")
 print("Press C: Multiplication")
 print("Press D: Division\n")
 
+while True:
     # Ask for the operation that the user wants 
+    choice = input("Enter your choice of operation: ")
+
     # Check if the choice is one among the four operations
         # Calculate the given operation.
         # If the user wants addition
