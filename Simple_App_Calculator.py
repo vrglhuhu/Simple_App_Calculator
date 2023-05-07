@@ -97,9 +97,16 @@ while True:
         next_calculation = input("\U0001F4CC \033[40m\033[33mDo you want to perform another calculation?\033[0m \033[40m\033[34mYES\033[0m or \033[40m\033[34mNO:\033[0m ")
         # Break the while loop if user answered no
         if next_calculation.upper() == "NO":
-            print("\n\U0001F534 Closing Program... Thank you! \U0001F64B")
+            print("\n\U0001F504\U0001F504 Closing Program... \U0001F504\U0001F504 Thank you!")
+            
+            # create a footer
+            print("")
+            goodbye = pyfiglet.figlet_format("Visit me again", font = "puffy" )
+            print (goodbye)
+            print("")
             break
 
     # If not in the four operations
     else:
         print("\U0001F6A7 \033[31mINVALID INPUT!\033[0m")  
+
