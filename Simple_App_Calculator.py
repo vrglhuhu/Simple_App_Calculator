@@ -56,10 +56,21 @@ while True:
                 continue
 
         # If the user wants multiplication
+        elif choice.lower() == 'c':
+            print("MULTIPLICATION OPERATION")
+            try:
                 # Ask the user to enter first number
+                num1 = float(input("Enter first number that you want to multiply: "))
                 # Ask the user to enter second number
+                num2 = float(input("Enter second number that you want to multiply: "))
+                multiply = num1 * num2
                 # Printing result
+                print(num1, "*", num2, "=", multiply)
             # If the user input other character
+            except ValueError:
+                print("INVALID INPUT. Please enter a number.")
+                continue
+
         # If the user wants division       
                 # Ask the user to enter first number
                 # Ask the user to enter second number
